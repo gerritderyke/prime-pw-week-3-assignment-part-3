@@ -72,9 +72,9 @@ const max = supplyChanges.length;
 
 while(index < max){
   if(supplyChanges[index] > 0)
-  console.log(supplyChanges[index]);
+  console.log('Added', supplyChanges[index], 'parts');
   if(supplyChanges [index]<0)
-  console.log(supplyChanges [index]);
+  console.log('Part count', supplyChanges [index]);
   index++
 }
 
