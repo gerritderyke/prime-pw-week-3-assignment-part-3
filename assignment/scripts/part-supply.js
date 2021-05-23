@@ -67,6 +67,16 @@ for(value of supplyChanges){
 // 8. Rewrite the `for` loop from #6 as a `while` loop.
 console.log('8. Showing supplyChanges with "while" loop');
 
+let index = 0;
+const max = supplyChanges.length;
+
+while(index < max){
+  if(supplyChanges[index] > 0)
+  console.log(supplyChanges[index]);
+  if(supplyChanges [index]<0)
+  console.log(supplyChanges [index]);
+  index++
+}
 
 // 9. Write a loop to determine the total number of parts available by
 //    adding up all the numbers in the 'supplyChanges' array.
